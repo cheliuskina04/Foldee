@@ -1,0 +1,87 @@
+.project-header {
+  position: relative;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: color-mix(in srgb, var(--project-color) 20%, transparent);
+  z-index: -1;
+}
+
+.project-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 8px;
+  background-color: var(--project-color);
+}
+
+.project-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.project-menu-wrapper {
+  position: relative;
+  display: inline-block; /* Не розтягує висоту */
+}
+
+.project-menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.project-dropdown {
+  position: absolute;
+  top: 0;
+  left: 100%; /* розміщує меню праворуч від кнопки */
+  margin-left: 8px; /* відступ між кнопкою і меню */
+  background: #222;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.project-dropdown button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.project-dropdown button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.project-header p {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+  margin-left: 20px;
+}

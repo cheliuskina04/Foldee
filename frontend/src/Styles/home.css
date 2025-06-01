@@ -1,0 +1,272 @@
+.home-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-logo {
+  text-align: center;
+  cursor: pointer;
+}
+
+.project-actions {
+  display: none;
+}
+
+.project-item {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s ease;
+  position: relative;
+}
+
+.project-item:hover {
+  background-color: #424242;
+}
+
+.project-item-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.project-name {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.project-category {
+  margin-bottom: 1rem;
+}
+
+.project-category h3 {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  transition: width 0.3s;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.sidebar.closed {
+  width: 60px;
+}
+
+.sidebar-logo {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.sidebar-logo img {
+  width: 150px;
+  transition: width 0.3s;
+}
+
+.sidebar.closed .sidebar-logo img {
+  width: 40px;
+}
+
+.projects-list {
+  flex: 1;
+  overflow-y: auto;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.sidebar-toggle {
+  position: absolute;
+  right: -20px;
+  top: 20px;
+  width: 20px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 4px 4px 0;
+  background-color: #1a1a1a;
+  border: 1px solid #ccc;
+  border-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar-toggle:hover {
+  background-color: #333;
+}
+
+.sidebar-new-project {
+  margin: 20px auto 10px;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #353535;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  flex-shrink: 0;
+}
+
+.sidebar-logout {
+  margin: 20px auto 10px;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  flex-shrink: 0;
+}
+
+.sidebar-logout:hover {
+  background-color: #555;
+}
+
+.sidebar.closed .sidebar-logout {
+  display: none;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 300px;
+  transition: margin-left 0.3s;
+  height: 100vh;
+  width: calc(100% - 300px);
+  overflow-y: auto;
+  transition: margin-left 0.3s, width 0.3s;
+} 
+
+.welcome-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+  text-align: center;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.welcome-message {
+  font-size: 1.6rem;
+  color: #d2d2d2;
+}
+
+.ted-video {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Підпис під відео */
+.video-caption {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-top: -4px;
+  font-style: italic;
+}
+
+
+.sidebar.closed + .main-content {
+  margin-left: 100px;
+  width: calc(100% - 100px);  /* змінюємо ширину під новий відступ */
+}
+
+/* Hide all elements when sidebar is closed except logo and toggle button */
+.sidebar.closed .project-category,
+.sidebar.closed .sidebar-new-project,
+.sidebar.closed .sidebar-logout {
+  display: none;
+}
+
+
+
+.top-right-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-image: url('/weather.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+  z-index: 1000;
+}
+
+.top-right-button:hover {
+  transform: scale(1.1);
+}
+
+.pixel-cat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  height: 200px;
+  background-image: url('/pixel-cat.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+
+
+
+.pixel-cat:hover::after {
+  content: 'коли немає завдань)';
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50px, +300%); 
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  font-size: 14px;
+} 
+
+
+
+
+
+
+.widget {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 1000;
+  transform: scale(0.8);
+  transform-origin: top right;
+}

@@ -1,0 +1,41 @@
+.project-details {
+  width: 100%;             /* на всю ширину */
+  min-height: 100vh;       /* мінімальна висота - висота вікна */
+  padding: 20px 40px;      /* внутрішні відступи зверху/знизу та з боків */
+  box-sizing: border-box;  /* щоб падінги рахувалися в ширину */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;               /* відстань між елементами */
+}
+
+
+
+
+/* Якщо таблиця широка, додаємо скрол по горизонталі */
+.task-table-wrapper {
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+/* Для відступів всередині таблиці (якщо потрібно) */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Відступи навколо заголовка */
+.project-header {
+  margin-bottom: 15px;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .project-details {
+    padding: 15px 20px;
+  }
+  
+  .new-task-button {
+    width: 100%;
+    text-align: center;
+  }
+}

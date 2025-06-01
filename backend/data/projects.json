@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1748549804965",
+    "name": "Сайт для місцевої кав’ярні",
+    "description": "Команда працює над простим сайтом для маленької кав’ярні: меню, локація, години роботи, новини та зворотній зв’язок. ",
+    "color": "#9a754c",
+    "creator": "oleg@team.com",
+    "admins": [
+      "oleg@team.com",
+      "katya@team.com",
+      "anya@team.com"
+    ],
+    "members": [
+      "oleg@team.com",
+      "anya@team.com",
+      "katya@team.com",
+      "dmytro@team.com",
+      "ruslan@team.com"
+    ]
+  },
+  {
+    "id": "1748790265895",
+    "name": "Платформа для каршерінгу у місті",
+    "description": "Сервіс для пошуку, бронювання та оплати короткострокової оренди автомобілів у місті. Додаток орієнтований на простоту інтерфейсу й швидкість взаємодії з картою.",
+    "color": "#46e925",
+    "cover": null,
+    "creator": "katya@team.com",
+    "admins": [
+      "katya@team.com",
+      "oleg@team.com"
+    ],
+    "members": [
+      "katya@team.com",
+      "anya@team.com",
+      "dmytro@team.com",
+      "oleg@team.com"
+    ]
+  },
+  {
+    "id": "1748790403756",
+    "name": " Освітня платформа для самоосвіти",
+    "description": "Розробка веб-додатку, де користувачі можуть проходити інтерактивні курси, відслідковувати прогрес і ділитися результатами. Платформа орієнтована на молодь, що прагне розвиватися самостійно.",
+    "color": "#ddf23a",
+    "cover": null,
+    "creator": "katya@team.com",
+    "admins": [
+      "katya@team.com",
+      "anya@team.com"
+    ],
+    "members": [
+      "katya@team.com",
+      "dmytro@team.com",
+      "oleg@team.com",
+      "anya@team.com"
+    ]
+  }
+]

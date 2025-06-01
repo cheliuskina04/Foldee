@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1748549628148,
+    "username": "Олег",
+    "email": "oleg@team.com",
+    "password": "$2b$10$6YUW8RGN60DlnQfLMcPFnuR.f1546as6Q8NvTuTd81LUSvYq6s2ei",
+    "projects": [
+      "1748557150688"
+    ]
+  },
+  {
+    "id": 1748549673789,
+    "username": "Аня",
+    "email": "anya@team.com",
+    "password": "$2b$10$OM6B3SI2Lpgy7XaBPqUoKOTrsQIRnYYcHBK0J4j1PR1wk7ZqNBYky"
+  },
+  {
+    "id": 1748549694204,
+    "username": "Дмитро",
+    "email": "dmytro@team.com",
+    "password": "$2b$10$s6IwuFP4GfQQ0s1x8UHtq.ASYu8kBUooQA0ir5XsngEYPxRra708K"
+  },
+  {
+    "id": 1748549710425,
+    "username": "Катя",
+    "email": "katya@team.com",
+    "password": "$2b$10$YhGEX2BFciLMbCqjLkBPeuzmgD4lFHKU.F.IwjCBhfJHL2VyxjnnC"
+  },
+  {
+    "id": 1748549728334,
+    "username": "Руслан",
+    "email": "ruslan@team.com",
+    "password": "$2b$10$yYJWeNG0bDdVIVMk1bi.OuHmaofpv0t2se2HluRVKALM.41KpOepS"
+  },
+  {
+    "id": 1748556845909,
+    "username": "test",
+    "email": "test@gmail.com",
+    "password": "$2b$10$ASuiwiALbT3eW4aOaJrkH.Z09imYlbfbfzJvxibJKeQqkhyUEn69K"
+  }
+]

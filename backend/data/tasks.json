@@ -1,0 +1,200 @@
+[
+  {
+    "id": "1748550079802",
+    "title": "Розробити макет головної сторінки",
+    "deadline": "2025-06-01",
+    "status": "В процесі",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "anya@team.com",
+    "author": "anya@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551191579",
+    "title": "Зробити адаптивну верстку",
+    "deadline": "2025-06-04",
+    "status": "Не почато",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "dmytro@team.com",
+    "author": "oleg@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551211969",
+    "title": "Налаштувати API для меню",
+    "deadline": "2025-06-03",
+    "status": "В процесі",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "katya@team.com",
+    "author": "oleg@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551240925",
+    "title": "Написати текст для “Про нас”",
+    "deadline": "2025-06-05",
+    "status": "Не почато",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "oleg@team.com",
+    "author": "oleg@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551271354",
+    "title": "Додати Google Maps на сторінку",
+    "deadline": "2025-06-08",
+    "status": "Не почато",
+    "priority": "Низький",
+    "tags": [],
+    "assignee": "dmytro@team.com",
+    "author": "oleg@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551287818",
+    "title": "Оновити логотип",
+    "deadline": "2025-06-06",
+    "status": "Завершено",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "anya@team.com",
+    "author": "katya@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551305750",
+    "title": "Налаштувати сервер",
+    "deadline": "2025-06-02",
+    "status": "В процесі",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "katya@team.com",
+    "author": "oleg@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748551323612",
+    "title": "Протестувати форми зворотного зв’язку",
+    "deadline": "",
+    "status": "Не почато",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "",
+    "author": "oleg@team.com",
+    "projectId": "1748549804965"
+  },
+  {
+    "id": "1748790298300",
+    "title": " Інтеграція з картою Google Maps або OpenStreetMap",
+    "deadline": "2025-06-14",
+    "status": "В процесі",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "katya@team.com",
+    "author": "katya@team.com",
+    "projectId": "1748790265895"
+  },
+  {
+    "id": "1748790310383",
+    "title": "Реалізувати функціонал бронювання авто",
+    "deadline": "",
+    "status": "В процесі",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "oleg@team.com",
+    "author": "katya@team.com",
+    "projectId": "1748790265895"
+  },
+  {
+    "id": "1748790327384",
+    "title": "Захист платежів та збереження даних картки",
+    "deadline": "2025-06-10",
+    "status": "Не почато",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "",
+    "author": "katya@team.com",
+    "projectId": "1748790265895"
+  },
+  {
+    "id": "1748790351473",
+    "title": "Додати список доступних авто з фільтрами",
+    "deadline": "2025-06-12",
+    "status": "Не почато",
+    "priority": "Низький",
+    "tags": [],
+    "assignee": "katya@team.com",
+    "author": "katya@team.com",
+    "projectId": "1748790265895"
+  },
+  {
+    "id": "1748790367182",
+    "title": " Підключити пуш-сповіщення про завершення бронювання",
+    "deadline": "2025-06-15",
+    "status": "Не почато",
+    "priority": "Низький",
+    "tags": [],
+    "assignee": "",
+    "author": "katya@team.com",
+    "projectId": "1748790265895"
+  },
+  {
+    "id": "1748790421328",
+    "title": "Розробити структуру бази даних для курсів ",
+    "deadline": "2025-06-07",
+    "status": "В процесі",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "",
+    "author": "katya@team.com",
+    "projectId": "1748790403756"
+  },
+  {
+    "id": "1748790436776",
+    "title": "Реалізувати авторизацію та профілі користувачів",
+    "deadline": "2025-06-03",
+    "status": "В процесі",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "",
+    "author": "katya@team.com",
+    "projectId": "1748790403756"
+  },
+  {
+    "id": "1748790455154",
+    "title": "Зробити прогресбар проходження курсу",
+    "deadline": "2025-06-15",
+    "status": "В процесі",
+    "priority": "Високий",
+    "tags": [],
+    "assignee": "katya@team.com",
+    "author": "katya@team.com",
+    "projectId": "1748790403756"
+  },
+  {
+    "id": "1748790465317",
+    "title": "Додати можливість залишати відгуки про курси",
+    "deadline": "2025-06-22",
+    "status": "Не почато",
+    "priority": "Середній",
+    "tags": [],
+    "assignee": "",
+    "author": "katya@team.com",
+    "projectId": "1748790403756"
+  },
+  {
+    "id": "1748790480569",
+    "title": "Додати темну тему інтерфейсу",
+    "deadline": "2025-06-16",
+    "status": "Не почато",
+    "priority": "Низький",
+    "tags": [],
+    "assignee": "oleg@team.com",
+    "author": "katya@team.com",
+    "projectId": "1748790403756"
+  }
+]

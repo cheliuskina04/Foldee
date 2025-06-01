@@ -1,0 +1,77 @@
+
+.blurred-background .main-content,
+.blurred-background .sidebar {
+  filter: blur(4px);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background: rgb(36, 36, 36);
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.modal-content input[type="text"],
+.modal-content textarea,
+.modal-content input[type="color"],
+.modal-content input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #2f2f2f;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modal-buttons button[type="submit"] {
+  background-color: #2ed573;
+  color: white;
+}
+
+.modal-buttons button[type="button"] {
+  background-color: #ff6b81;
+  color: white;
+}

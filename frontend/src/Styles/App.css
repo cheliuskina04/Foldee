@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 8em;
+  padding: 0em;
+  transition: filter 300ms;
+  margin-bottom: -4em;
+}
+
+.animated-text {
+  font-size: 6em;
+  font-weight: bold;
+  font-family: 'Great Vibes', cursive;
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96e6a1);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 8s ease infinite;
+  margin-bottom: 0.2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* вертикально */
+  align-items: center;
+  gap: 1rem; /* відстань між кнопками */
+  margin-top: 2rem;
+}
+
+.start-button {
+  background-color: #2aacbd; /* блакитний */
+
+}
+
+
+.motivation {
+  font-size: 1.2em;
+  color: #888;
+  margin-top: -0.2em;
+  margin-bottom: 0.8em;
+  font-family: 'Great Vibes', cursive;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
